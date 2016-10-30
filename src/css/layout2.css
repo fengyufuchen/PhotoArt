@@ -6,14 +6,16 @@
     text-decoration: none;
 
 }
-body{
-    background:url(../images/tail-top.jpg) repeat-x center top #000;
+
+body {
+   background: url(../images/tail-top.jpg) repeat-x center top #000;
 }
 
-.header_container {
+.header_container,.container {
     height: 468px;
     width: 884px;
     margin: 0px auto;
+    overflow: hidden;
     border: 1px solid red;
 
 }
@@ -48,7 +50,7 @@ body{
     font-size: 15px;
     text-align: center;
     line-height: 76px;
-    border:1px solid blue;
+    border: 1px solid blue;
 
 }
 
@@ -56,37 +58,39 @@ body{
     margin-left: 82px;
 }
 
-.nav_header nav ul li:hover{
+.nav_header nav ul li:hover {
 
     border: 2px solid #ffb304;
-    border-radius: 5px ;
+    border-radius: 5px;
     background-color: #ffb304;
 
 }
-.nav_header_ul_li_active{
+
+.nav_header_ul_li_active {
     border: 2px solid #ffb304;
-    border-radius: 5px ;
+    border-radius: 5px;
     background-color: #ffb304;
 }
-.header_container .tab_title{
+
+.header_container .tab_title {
     margin-left: 240px;
     height: 50px;
 
-
 }
-.header_container .tab_title ul li{
+
+.header_container .tab_title ul li {
     display: inline-block;
     list-style: none;
-    width:90px;
+    width: 90px;
     height: 34px;
-    margin: 10px 12px 10px 6px ;
+    margin: 10px 12px 10px 6px;
     font-size: 12px;
     line-height: 30px;
-    border:2px solid red ;
+    border: 2px solid red;
     border-radius: 10px;
     text-align: center;
     color: white;
-    filter:alpha(opacity:10);
+    filter: alpha(opacity:10);
     opacity: .75; /* Standard: FF gt 1.5, Opera, Safari */
     filter: alpha(opacity=75); /* IE lt 8 */
     -ms-filter: "alpha(opacity=75)"; /* IE 8 */
@@ -94,17 +98,205 @@ body{
     -moz-opacity: .75; /* FF lt 1.5, Netscape */
 
 }
-.header_container .tab_title ul li:first-of-type{
+
+.header_container .tab_title ul li:first-of-type {
     margin-left: -46px;
 }
-.tab_container{
 
-}
-.tab_content{
+.tab_container {
 
 
 
 }
-.tab_container .tab_content .faded
 
+.tab_content {
+    margin-top: 5px;
+    position: relative;
+
+}
+
+.tab_container .tab_content .faded .big-image {
+    float: right;
+    width: 600px;
+    height: 323px;
+    border: 3px solid white;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 85px;
+
+}
+
+.tab_container .tab_content .faded .pagination {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.tab_container .tab_content .faded .pagination li {
+
+    float: left;
+    width: 165px;
+    height: 80px;
+    margin-bottom: 30px;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-left: 2px;
+
+    cursor: pointer;
+
+}
+
+.tab_container .tab_content .faded .pagination:after {
+    display: block;
+    height: 0px;
+    line-height: 0px;
+    visibility: hidden;
+    clear: both;
+    content: '';
+
+}
+.container{
+    margin-top:70px ;
+    position:relative;
+    height:256px;
+    overflow: hidden;
+
+}
+.asideOuter{
+    display: inline-block;
+    width:178px;
+    border:  2px solid #ffb304;
+    text-align: center;
+    position: relative;
+    top:0;
+    left: 0;
+    float: left;
+}
+.container .inside{
+
+
+}
+.container .inside ul li{
+    margin-bottom: 15px;
+    color: #ffb304;
+    font-size: 14px;
+    line-height: 14px;
+
+
+}
+.container .inside ul li a{
+    color: #ffb304;
+}
+.container .inside ul li span{
+    border: 5px solid #ffb304;
+    border-color:  transparent transparent transparent #ffb304;
+    display: inline-block;
+    height: 0px;
+}
+.container .inside ul li:first-child{
+    margin-top: 20px;
+}
+.container .inside  figure{
+    margin-left: -40px;
+
+}
+.container  .inside figure img{
+    display: inline-block;
+    width: 275px;
+}
+.sectionOuter{
+    display: inline-block;
+    border: 2px solid #b3d4fc;
+    width: 680px;
+    position: relative;
+    right: 0;
+    top:0;
+    float: right;
+
+}
+
+.arWe{
+    width: 50%;
+    border:2px solid red;
+    float: left;
+    font-size:12px ;
+    height: 100%;
+
+
+
+}
+.arWe h2{
+
+    color: white;
+
+}
+.arWe img {
+    display: inline-block;
+    width: 333px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+
+
+}
+.arWe article{
+    color: white;
+}
+
+.arNews{
+    width: 40%;
+    height: 100%;
+    border:3px solid #ffff00;
+    float: right;
+}
+.arNews h2 {
+    margin-bottom: 10px;
+    color: white;
+
+}
+.arWe article a{
+
+    color: #ffb304;
+
+}
+.arNews ul li{
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 1.429em;
+
+    vertical-align: top;
+
+}
+.arNews ul li span{
+    background:url(../images/marker1.gif) no-repeat left top;
+    display: block;
+    float: left;
+    text-align: center;
+    width:19px;
+    height: 25px;
+    font-size:.786em;
+    padding-right: 20px;
+    line-height:1.2em;
+
+}
+.arNews ul li strong{
+    display: block;
+    padding-left: 15px;
+    color: white;
+}
+
+.arNews ul li strong a{
+    color: #ffb304;
+}
+
+footer .footercontainer{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+footer .container a{
+    color: white;
+}
 
