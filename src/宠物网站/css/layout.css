@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background: #000 url("../images/back-site.jpg") no-repeat scroll center top;
+    color: #f2f2f2;
+    font: 0.9em/1.55em Arial,Helvetica,sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+.main{
+    width: 884px;;
+    margin:0px auto;
+    border:  1px solid red;
+
+}
+.content{
+
+    width: 620px;
+    border: 1px solid blue;
+
+}
+.header{
+    position: relative;
+    height: 112px;
+    border: 1px solid yellow;
+
+}
+.header .logol{
+    position: relative;
+    background: rgba(0, 0, 0, 0) url("../images/logo-okb-es.png") no-repeat scroll 0 0 ;
+    margin-top: 15px;
+    margin-left: 30px; ;
+
+
+}
+.header .logol strong{
+    margin-left: -99999px;
+}
+.header span{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;;
+}
+.header span a{
+    color: #D6E09F;
+    font-size:10px;
+}
+
+.navtitle{
+    height: 50px;
+
+}
+.navtitle li{
+    display: inline-block;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 60px;
+    border: 1px solid red;
+
+}
+.navtitle ol li:first-child{
+    margin-left: 40px;;
+}

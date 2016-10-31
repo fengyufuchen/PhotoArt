@@ -1,0 +1,418 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    margin: 0 auto;
+
+    font: .9em Arial, Helvetica, sans-serif;
+    line-height:1.55em;
+    color: #f2f2f2;
+    background: url("../images/back-site.jpg") #000000 center top no-repeat;
+    text-align: center;
+
+}
+p,h3{
+    margin: 0px;
+    padding:0px;
+
+}
+.main{
+    color: #f2f2f2;
+    margin: 0 auto;
+    width:960px;;
+    border: 1px solid blue;
+    background: url(../images/back-content.jpg);
+
+
+}
+.content{
+    width:680px;
+    float: left;
+    text-align: left;
+    position: relative;
+}
+.rightaside{
+    width:266px;
+    float: left;
+    text-align: left;
+    border: 1px solid red;
+}
+
+.main:after{
+    display: block;
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    content: "";
+    visibility: hidden;
+}
+
+#pie{
+    width:800px;
+    text-align: left;
+    margin:10px auto;
+    padding:20px 0 30px 0;
+    border-top:1px solid #141414;
+    font-size: 12px;
+
+
+}
+
+#pie a {
+    margin:0 3px 0 0;
+
+}
+.vcard{
+    margin: 0 0 0 20px;
+    background-image:  url("../images/vcard-06.png");
+    background-position: left bottom;
+    background-repeat:no-repeat;
+    width: 217px;
+    height: 430px;
+    border: 1px solid red;
+
+
+
+}
+
+.vcard #url{
+
+    width: 217px;;
+    height: 165px;
+    background-image:url("../images/vcard-01.jpg");
+    background-repeat:no-repeat;
+    text-indent: -5000px;
+}
+.vcard #direction{
+    width:217px;
+    height: 91px;
+    background-image: url("../images/vcard-02.jpg");
+    background-repeat: no-repeat;
+    text-indent: -5000px;
+}
+
+.vcard #direction .adr #provincia{
+    text-indent: -50000px;
+
+}
+.vcard #tel{
+    width: 217px;
+    height:47px;
+    background-image: url("../images/vcard-03.jpg");
+    text-indent:-5000px;
+
+}
+.vcard #fax{
+    width:217px;
+    height: 39px;
+    background-image: url("../images/vcard-04.png");
+    background-repeat:no-repeat;
+    text-indent: -50000px;;
+}
+
+#email a{
+     text-decoration: none;
+    display: block;
+    width:218px;
+    height:38px;
+    background-image: url("../images/vcard-05.jpg");
+    background-repeat:no-repeat;
+    text-indent:-50000px;
+
+
+}
+
+a{
+    color: #a2ab73;
+    text-decoration: none;
+    background-image: url("../images/enlaces.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+a:hover{
+    color: #D6E09F;
+}
+span a {
+    font-size:.75em;
+    padding:0;
+    margin:90px 18px 0 0;
+    float:right;
+    text-align:right;
+    display:block;
+    color:#D6E09F !important;
+    border:2px solid #32ff39;
+}
+span a:hover{
+    color: #d6d6d6;
+}
+
+h1{
+
+    float: left;
+    margin: 0px;
+    padding:15px 45px;
+
+}
+h1 a{
+    background: url("../images/logo-okb-es.gif") no-repeat;
+    width: 113px;
+    height:72px;
+    display: block;
+    text-indent: -2000px;
+
+}
+
+
+ol {
+    clear:both;
+
+    padding:0 0 0 49px;
+    margin:0;
+    display:block;
+    z-index:100;
+}
+ol li {
+    display: inline-block;
+    padding:0;
+    list-style:none;
+    background-image:url(../images/separador-nav.png);
+    background-position:0 4px;
+    background-repeat:no-repeat;
+}
+
+ol a {
+    display:block;
+    background-repeat:no-repeat; /*width:95px;*/
+    height:73px;
+    text-indent:-2000px;
+    overflow:hidden;
+    background-position:0 0;
+}
+ol li#nosotros a {
+    width:94px;
+    margin:0 18px 0 0
+}
+ol li#servicios a {
+    width:120px;
+    margin:0 18px
+}
+ol li#trabajos a {
+    width:169px;
+    margin:0 18px
+}
+ol li#contacto a {
+    width:100px;
+    margin:0 0 0 18px
+}
+#nosotros a {
+    background-image: url(../images/nosotros.png);
+}
+#servicios a {
+    background-image: url(../images/servicios.png);
+}
+#trabajos a {
+    background-image: url(../images/trabajos.png);
+}
+#contacto a {
+    background-image: url(../images/contacto.png);
+}
+
+
+.cont-home, .cont-contacte {
+    padding:115px 0 30px 49px;
+    margin:0 0 0 0;
+    border: 2px solid red;
+}
+
+
+
+
+/*ol{
+    clear: both;
+
+    padding: 0 0 0 49px;
+    margin: 0px;
+    display: block;
+    z-index: 100;
+}
+ol li{
+    padding: 0px;
+    list-style: none;
+    display: inline-block;
+    background-image: url("../images/separador-nav.png");
+    background-position: 0 4px;
+    background-repeat: no-repeat;
+    border: 2px solid #ffb304;
+}
+ol #nosotros {
+    background-image:none !important;
+}
+ol a{
+    display: block;
+    background-repeat: no-repeat;
+    height:73px;
+
+    overflow: hidden;
+    background-position: 0 0;
+}
+ol li#nosotros a {
+    width:94px;
+    margin:0 18px 0 0
+}
+ol li#servicios a {
+    width:120px;
+    margin:0 18px
+}
+ol li#trabajos a {
+    width:169px;
+    margin:0 18px
+}
+ol li#contacto a {
+    width:100px;
+    margin:0 0 0 18px
+}
+#nosotros a {
+    background-image: url(../images/nosotros.png);
+}
+#servicios a {
+    background-image: url(../images/servicios.png);
+}
+#trabajos a {
+    background-image: url(../images/trabajos.png);
+}
+#contacto a {
+    background-image: url(../images/contacto.png);
+}*/
+
+
+.cont-home{
+    padding: 115px 0 30px 0;
+    margin:0 0 0 0;
+
+    border: 2px solid red;
+
+}
+
+.cont-trabajos{
+
+    padding:115px 0 30px 0;
+    margin:0 0 0 -10px;
+
+     border: 2px solid red;
+}
+.cont-home p, .cont-home h3, .cont-contacte h3, .cont-contacte p {
+    margin:0 0 13px 0;
+}
+.newsleft{
+    border:1px solid #ffff00;
+    float: left;
+    width: 390px;
+
+}
+.newsleft h3{
+    background: url("../images/texto-home.png") no-repeat;
+    width: 307px;
+    height: 97px;
+    text-indent: -5000px;
+
+}
+
+
+.newsright{
+    float: right;
+    width:155px;
+    margin: 0 0 0 46px;
+    font-size:.75em;
+    background-image: url("../images/fondo-destacado.png");
+    border: 2px solid blue;
+
+}
+.der p{
+    padding:0 15px 0  3px;
+    line-height:1.7px;
+    font-size:1.06em;
+
+}
+
+.der ul{
+    padding:0px;
+    margin:0;
+    list-style: none;
+    font-size:1.2em;
+    line-height:1.5px;
+
+}
+.der ul li {
+    padding:4px 0 4px 17px;
+    background-image:url(../images/+.gif);
+    background-repeat:no-repeat;
+    background-position:2px 11px;
+}
+
+.der ul li a {
+    background: url(../images/enlaces.png) repeat-x bottom;
+    color:#a2ab73;
+    padding:0;
+}
+.der ul li a:hover {
+    color:#d6e09f
+}
+
+#otto h4{
+    margin: 0px 0 20px 30px;
+    width:218px;
+    height:143px;
+    background: url("../images/otto-es-genial.jpg") no-repeat;
+    text-indent:-5000px;
+    border: 2px solid red;
+}
+#caso {
+    width:218px;
+    padding:15px 0 0 0;
+    margin:-15px 0 10px 30px;
+    border-top:1px solid #141414;
+}
+.dogView{
+    display: block;
+    margin:0 0 15px 0;
+    overflow: hidden;
+
+    width: 100%;
+    border: 2px solid #ffff00;
+
+}
+
+.dogView h4{
+    background:url(../images/muestra-de-trabajos.png) no-repeat 0 14px;
+    text-indent:-5000px;
+    display:block;
+    border-top:1px solid #141414; /*width:364px;*/
+    height:29px;
+    padding:15px 0 0 0;
+    margin:10px 26px 5px 47px;
+}
+.slide{
+    width: 408px;
+    height: 330px;
+    float: left;
+    background-color: #000000;
+    border: 2px solid red;
+}
+.info{
+    float: left;
+}
+.info p.cliente span{
+    clear: both;
+    display: block;
+    font-size:0.65em;
+    margin: 0 0 0  0;
+    color: #429d8e;
+
+}
+
+
+
+

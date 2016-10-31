@@ -8,7 +8,7 @@
 }
 
 body {
-   background: url(../images/tail-top.jpg) repeat-x center top #000;
+ /*  background: url(../images/tail-top.jpg) repeat-x center top #000;*/
 }
 
 .header_container,.container {
@@ -173,6 +173,7 @@ body {
     float: left;
 }
 .container .inside{
+    color: white;
 
 
 }

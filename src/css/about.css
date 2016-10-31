@@ -1,0 +1,52 @@
+.column-1{
+    width: 45%;
+    position: absolute;
+    top:0;
+    left:0;
+    border: 2px solid blue;
+    font-size: 12px;
+
+
+
+
+
+}
+.column-2{
+    width: 40%;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.column-1 h5{
+    display: block;
+    color: #ffb304;
+}
+.column-1 img{
+    float: left;
+    margin-right: 10px;
+
+    border: 3px solid white;
+    border-radius: 10px ;
+
+
+}
+.column-1 div{
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.column-2 h2{
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.column-2 p span{
+    display:  block;
+    color: #ffb304;
+    font-size: 12px;
+}
+.column-2 p{
+    font-size: 12px;
+
+}
+
