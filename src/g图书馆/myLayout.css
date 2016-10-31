@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main {
+
+    width: 636px;
+    margin: 0 auto;
+
+}
+
+.logol {
+    height: 87px;
+    margin-top: 36px;
+
+}
+
+.main .nav {
+    height: 56px;
+    background: url("./images/menu_bg.gif");
+
+    padding-left: 12px;
+
+}
+
+.nav ol li {
+    margin-right: 18px;
+    list-style: none;
+}
+
+.nav ol li.separate {
+    display: inline-block;
+    background-image: url("../images/spacer.gif");
+    width: 2px;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.nav ol li.separate img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.nav ol li.item {
+
+    list-style: none;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 3px;;
+    position: relative;
+    border: 2px solid #ffff00;
+
+
+}
+.sub-menu{
+    display: block;
+    position: absolute;
+    left:0px;
+    top:30px;
+}
+.sub-menu li{
+
+    z-index: 100;
+    margin-top: 5px;
+    display: block;
+    width:100%;
+    font-size: 12px;
+    height: 20px;
+
+
+}
+
+
+.nav ol li>a {
+    color: white;
+    text-decoration: none;
+
+}
+.nav ol li ul li a{
+    color: red;
+
+}
+.content .top {
+
+    height: 268px;
+
+
+}
+
+.leftContent {
+    width: 382px;
+    position: relative;
+
+    float: left;
+    height: 100%;
+
+}
+
+.p1 {
+
+    margin-left: 10px;
+    margin-top: 10px;
+
+    height: 110px;
+}
+
+.p1 h5 {
+    font-size: 10px;
+    line-height: 20px;
+    height: 20px;
+
+}
+
+.introduceimg {
+    float: left;
+
+}
+
+.introduceWorld {
+    float: left;
+    width: 270px;
+    margin-left: 2px;
+    position: relative;
+
+}
+
+.introduceWorld p a {
+    font-size: 10px;
+    text-decoration: none;
+
+}
+
+.introduceWorld > a {
+    display: inline-block;
+    padding-left: 220px;
+    font-size: 10px;
+
+}
+
+.rightContent {
+    float: right;
+    width: 244px;
+    height: 100%;
+
+}
+
+.rightContent ul li {
+    display: inline-block;
+    list-style: outside none square;
+
+}
+
+.rightContent ul li a {
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+    text-decoration: none;
+
+}
+
+.rightContent h5 {
+    font-size: 10px;
+    line-height: 20px;
+    height: 20px;
+
+}
+
+.booksretrieval {
+    margin-top: 2px;
+
+}
+
+.booksretrieval span {
+    display: block;
+    background-color: #41505c;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.bookbg {
+    background-color: #FFC000;
+    padding-bottom: 4px;
+    padding-top: 3px;
+}
+
+.bookinput {
+
+    margin-left: 10px;
+    background-color: white;
+
+}
+
+.bottom {
+    clear: both;
+
+    height: 130px;
+    outline: 3px solid;
+
+}
+
+.btLeft {
+
+    outline: 2px solid #a2ab73;
+    float: left;
+
+
+}
+
+.btMiddle {
+    margin-left: 34px;
+    float: left;
+
+}
+
+.btMiddle ul li a {
+    text-decoration: none;
+    color: red;
+    width: 150px;
+    font-size: 9px;;
+    height: 15px;
+    line-height: 15px;
+
+}
+.btRight{
+
+    float: left;
+    margin-left: 34px;
+}
+.btRight ul li a {
+    text-decoration: none;
+    color: red;
+    width: 150px;
+    font-size: 9px;;
+    height: 15px;
+    line-height: 15px;
+
+}
+.footer{
+    margin-top: 25px;
+}
+.footerTop{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+.bottomCopy{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10px;
+}
+
+.item:hover{
+
+
+}
