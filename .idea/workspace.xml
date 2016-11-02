@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cba4fb3c-c061-433e-b0f0-95555c941d2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/200605282059328431.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/bg0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/bg001.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/bird.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/bird1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/bird2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/grade.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/img-wrapper-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/land.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/pipe1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/pipe_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/pipe_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/images/slide3-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/fudong元素.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/两列等高（背景模拟源码）.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/两列等高（背景模拟）.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/两列等高（负边距实现-疑问1）.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/两列等高（负边距实现-疑问2）.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/两列等高（负边距实现-背景图）.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/两列等高（负边距实现）.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/单列定宽单列自适应结构2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/单列定宽单列自适应结构3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/单列定宽单列自适应结构4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/单列定宽单列自适应结构5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/测试文件/单列定宽单列自适应结构仅仅设置百分比.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/js/Background.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/js/Bird.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/js/Game.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/js/Grade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/js/Land.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/js/Pipe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/爱前端FlappyBird游戏/js/underscore.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/测试文件/测试为什么绝对定位的元素没有计算高度.html" afterPath="$PROJECT_DIR$/src/测试文件/测试为什么绝对定位的元素没有计算高度.html" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,7 +48,7 @@
       <file leaf-file-name="Game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/爱前端FlappyBird游戏/js/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="1445">
               <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding />
             </state>
@@ -430,24 +393,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoSIte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photosite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -547,7 +492,7 @@
       <workItem from="1477744749332" duration="16100000" />
       <workItem from="1477793530206" duration="44106000" />
       <workItem from="1477904512605" duration="31678000" />
-      <workItem from="1478050856150" duration="25540000" />
+      <workItem from="1478050856150" duration="25988000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1477760194219</created>
@@ -598,11 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477928950301</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="FlappyHappy小游戏&#10;">
+      <created>1478091298983</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1478091298983</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117424000" />
+    <option name="totallyTimeSpent" value="117872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-38" width="1382" height="744" extended-state="6" />
@@ -665,7 +617,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="Merge branch 'master' of https://github.com/fengyufuchen/PhotoArt&#10;&#10;# Conflicts:&#10;#&#9;README.md&#10;" />
     <MESSAGE value="完成图书馆功能&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成图书馆功能&#10;" />
+    <MESSAGE value="FlappyHappy小游戏&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="FlappyHappy小游戏&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -756,6 +709,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="42" column="150" selection-start-line="42" selection-start-column="150" selection-end-line="42" selection-end-column="150" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -763,6 +717,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -770,6 +725,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -777,6 +733,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,7 +974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/爱前端FlappyBird游戏/js/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
+        <state relative-caret-position="1445">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
         </state>
