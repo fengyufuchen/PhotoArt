@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .header, #footer {
+            width: 960px;
+            height: 30px;
+            background-color: #E8E8E8;
+
+        }
+
+        .container{
+            width: 960px;
+            background: url("../images/bg.png") repeat-y 0 0;
+        }
+
+        .mainBox {
+            float: left;
+            width: 650px;
+            outline: 3px solid #a2ffb3;
+
+        }
+
+        .slideBox {
+            float: right;
+            width: 280px;
+            outline: 3px solid red;
+
+        }
+
+        .mainBox, .slideBox {
+            padding: 0 5px;
+            color: #FF0000;
+
+        }
+
+        .container:after {
+            display: block;
+            visibility: hidden;
+            font-size: 0px;
+            line-height: 0px;
+            height: 0px;
+            content: "";
+            clear: both;
+
+        }
+    </style>
+</head>
+<body>
+<div class="header">头部</div>
+
+<div class="container">
+    <div class="mainBox">
+
+        <p>主要内容区域</p>
+        <p>增加文字看看效果</p>
+        <p>两列等高的页面结构布局方式</p>
+        <p>可以算作一种障眼法</p>
+        <p>让浏览器在视觉上感觉到页面中的两列是相同的高度即可</p>
+
+
+    </div>
+    <div class="slideBox">侧边栏</div>
+
+</div>
+<div id="footer">底部信息</div>
+</body>
+</html>
