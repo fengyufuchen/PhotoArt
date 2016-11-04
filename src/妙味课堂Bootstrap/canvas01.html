@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        #c1 {
+            border: 2px solid red;
+        }
+
+    </style>
+</head>
+<body>
+<canvas id="c1" style="width: 900px;height: 900px">
+    <!--宽高最好在canvas标签上设置，如果在style中设置canvas的宽高会有问题-->
+    <span>不支持canvas的浏览器，如果浏览器不支持canvas，那么就会执行canvas标签下的内容</span>
+</canvas>
+<div id="4" style="white-space:pre;font-family: Consolas;"></div>
+
+</body>
+<script type="application/javascript">
+
+    var canvas = document.getElementById("c1");
+    var ctx = canvas.getContext("2d");//webgl 用于绘图3d
+
+    // ctx.fillRect(50,50 ,100,100);//第一个是画布左上角开始位置，然后是宽高
+    //ctx.strokeRect(20,20,100,100);
+    //填充和绘制边框的顺序不一样，如果先填充，后描绘的时候，描绘的样式会覆盖填充。
+
+    ctx.strokeRect(10, 10, 55, 50);
+    ctx.fillStyle = "red";//填充央视
+    ctx.strokeStyle = "blue";//边框样式
+    ctx.lineWidth = 10;//线条
+
+
+    ctx.beginPath();
+    ctx.moveTo(100, 100);
+    ctx.lineTo(200, 200);
+    ctx.stroke();//注意必须要有最后这行代码，如果没有这行代码，那么就不会有连线，上面只是设置并没有实际进行绘制
+
+
+    function f4() {
+        var str = "";
+        for (var i = 0; i < 8; i++) {
+            console.log((new Array(8 - i).join(" ") + (new Array(i + 2).join("*"))));
+            str += (new Array(8 - i).join(" ") + (new Array(i + 2).join("*"))) + "<br>";
+
+        }
+        document.getElementById("4").innerHTML = str;
+    }
+    f4();
+
+</script>
+</html>

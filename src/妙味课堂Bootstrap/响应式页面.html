@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./js/Bootstrap/css/bootstrap.css">
+    <script type="text/javascript" src="./js/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="./js/Bootstrap/js/bootstrap.js"></script>
+    <style>
+        .container {
+            border: 1px solid red;
+        }
+
+        div[class*="col-"] {
+            background-color: #a2ffb3;
+
+            border: 1px solid red;
+        }
+
+
+
+        .caption {
+            margin-top: 30px;
+            border: 1px solid red;
+        }
+
+        .tips1 {
+            width: 30px;
+            height: 300px;
+
+            background-color: #777777;
+        }
+        .tips2{
+
+            width: 30px;
+            height: 100px;
+            background-color: #2a6496;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<!--<div class="container">
+    <div class="row">
+
+        <div class="col-lg-4 visible-md">col-lg-4</div>
+        <div class="col-lg-4 hidden-sm">col-lg-4</div>
+
+    </div>
+</div>-->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="tips1 affix visible-lg-block"></div>
+        <div class="tips2 pull-right visible-md"></div>
+    </div>
+</div>
+</body>
+</html>
