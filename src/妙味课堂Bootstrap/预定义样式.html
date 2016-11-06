@@ -21,6 +21,20 @@
             border: 1px solid red;
         }
 
+        .githubstyle {
+            font-weight:700;
+            border: 1px solid red;
+
+        }
+        .glyphicon-fork{
+            background: url("./images/fork.jpg") no-repeat;
+            -webkit-background-size:contain;
+            background-size:contain;
+            height: 12px;
+            width: 18px;
+
+        }
+
     </style>
     <script type="text/javascript">
 
@@ -76,24 +90,53 @@
 </div>
 <div class="btn-group">
     <button class="btn btn-default" type="button">首页</button>
-    <button class="btn btn-default" tppe="button">个人建立
-    </button>
-    <div class="btn-group dropdown">
-        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">图书<span
-            class="caret"></span>
-            <ul class="dropdown-menu">
-                <li><a href="#">JavaScript编程精解</a></li>
-                <li><a href="#">Script编程精解</a></li>
-                <li><a href="#">JavaScript精解</a></li>
-            </ul>
+    <button class="btn btn-default" type="button">个人建立</button>
 
+    <div class="btn-group  " style="border: 1px solid red;">
+        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">图书
+
+            <span class="caret"></span>
         </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">JavaScript编程精解</a></li>
+            <li><a href="#">Script编程精解</a></li>
+            <li><a href="#">JavaScript精解</a></li>
+        </ul>
+
 
     </div>
 
 </div>
+<div class="githubstyle">
+    <div class="btn btn-group btn-group-sm ">
+        <button class="btn btn-default active"><span class="glyphicon glyphicon-eye-open"></span> watch <span class="caret"></span></button>
+
+        <button class="btn btn-default active">3,024</button>
+    </div>
+    <div class="btn btn-group btn-group-sm">
+        <button class="btn btn-default active"><span class="glyphicon glyphicon-star"></span> unstart</button>
+        <button class="btn btn-default">30296 </button>
+
+       </div>
+
+    <div class="btn btn-group btn-group-sm">
+        <button class="btn btn-default active"><span class="glyphicon glyphicon-fork"></span> fork</button>
+    </div>
+</div>
 
 
+<div class="btn-group">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+        Dropdown
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+    </ul>
+</div>
 </body>
 <script type="text/javascript">
 

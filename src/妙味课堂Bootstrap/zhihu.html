@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./js/Bootstrap/css/bootstrap.css">
+    <script type="text/javascript" src="./js/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="./js/Bootstrap/js/bootstrap.js"></script>
+    <style>
+        .navbar-default {
+            background: linear-gradient(to bottom, #086ed5, #055db5)
+        }
+
+        .container {
+            width: 960px;
+            padding: 0px;
+            border: 1px solid red;
+
+        }
+
+        .navbar-default  ul.nav>li>a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+
+<nav class="nav navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand"><img src="./images/zhihu.png"></a>
+        </div>
+        <form class="navbar-form navbar-left">
+
+            <div class="input-group">
+                <input type="text" class="form-control" style="width: 320px" placeholder="搜索问题话题">
+                <span class="input-group-addon"><a href="#"><span class="glyphicon glyphicon-search"></span></a></span>
+            </div>
+        </form>
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">话题</a></li>
+            <li><a href="#">发现</a></li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span>注册知乎</a></li>
+            <li><a href="#">登陆</a></li>
+
+        </ul>
+        <button class="btn btn-primary  navbar-right navbar-btn">提问问题</button>
+
+    </div>
+</nav>
+
+
+</body>
+</html>

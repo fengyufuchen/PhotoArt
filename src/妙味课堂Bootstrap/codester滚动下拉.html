@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./js/Bootstrap/css/bootstrap.css">
+    <script type="text/javascript" src="./js/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="./js/Bootstrap/js/bootstrap.js"></script>
+    <script src="./js/jquery-3.1.0.js"></script>
+    <style>
+
+        .my-style {
+            margin-left: 20px;
+            margin-top: 40px;
+        }
+
+        .my-style button {
+            background-color: #f6f8f8;
+            border: none;
+            width: 87px;
+            height: 42px;
+
+        }
+
+        .my-style .dropdown-menu img {
+            margin: 5px;
+        }
+
+        .my-style .dropdown-menu {
+            -webkit-animation: 2s linear fadeIn;
+            -o-animation: 2s linear fadeIn;
+            animation: 2s linear fadeIn;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0px)
+            }
+        }
+    </style>
+
+    <script>
+        $(function () {
+
+            function goPAGE() {
+                if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+
+                }
+                else {
+                    var timer = null;
+
+                    $(".dropdown-toggle").hover(function () {
+                        $(this).parent().addClass("open")
+                        console.log("toggle open")
+
+                    }, function () {
+                        var self=this;
+                        console.log("toggle close")
+                        timer = setTimeout(function () {
+
+                            $(self).parent().removeClass("open");
+                        }, 700)
+
+
+                    });//hover
+
+                    $(".dropdown-menu").hover(function(){
+                        console.log("menu 1")
+                        clearTimeout(timer);
+
+                    },function(){
+                        var self=this;
+                        console.log("menu 2")
+                        timer=setTimeout(function(){
+                            ($(self)).parent().removeClass("open")
+                        },100)
+                    })//hover
+
+                }//else
+            }
+
+          //  goPAGE();
+
+
+        })
+    </script>
+</head>
+<body>
+
+<div class="container"></div>
+<!-- Single button -->
+<div class="btn-group my-style">
+    <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown">
+        Plugins <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="/categories/32/wordpress-plugins">
+                <img width="16" height="16" class="m-r-sm" alt="WordPress Plugins"
+                     src="https://www.codester.com/static/uploads/categories/32/icon-alt.png">
+                <span>WordPress</span>
+            </a>
+        </li>
+        <li>
+            <a href="/categories/32/wordpress-plugins">
+                <img width="16" height="16" class="m-r-sm" alt="WordPress Plugins"
+                     src="https://www.codester.com/static/uploads/categories/32/icon-alt.png">
+                <span>WordPress</span>
+            </a>
+        </li>
+        <li>
+            <a href="/categories/32/wordpress-plugins">
+                <img width="16" height="16" class="m-r-sm" alt="WordPress Plugins"
+                     src="https://www.codester.com/static/uploads/categories/32/icon-alt.png">
+                <span>WordPress</span>
+            </a>
+        </li>
+        <li class="divider"></li>
+        <li>
+            <a href="/categories/32/wordpress-plugins">
+                <img width="16" height="16" class="m-r-sm" alt="WordPress Plugins"
+                     src="https://www.codester.com/static/uploads/categories/32/icon-alt.png">
+                <span>WordPress</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
